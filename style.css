@@ -389,3 +389,53 @@ footer p{
     color: #ffffff;
     font-family: 'Times New Roman', Times, serif;
 }
+
+@media (max-width: 480px) {
+    .searcharea {
+        width: 100px; /* Further reduce search area size */
+        height: 30px; /* Adjust height */
+    }
+
+    .searchbox input {
+        height: 30px; /* Adjust input height */
+    }
+
+    .section1 img {
+        height: 200px; /* Smaller image for mobile */
+    }
+
+    .productBox {
+        width: 90%; /* Adjust product box width */
+        margin: 10px 0; /* Adjust margin for spacing */
+    }
+
+    .aboutbox {
+        width: 100%; /* Full width for about box */
+        margin: 10px 0; /* Adjust margin */
+    }
+
+    footer p {
+        font-size: 12px; /* Smaller footer text */
+    }
+}
+
+@media (max-width: 768px) {
+    .logo {
+        font-size: 30px; /* Smaller logo for mobile */
+    }
+
+    .section1button h1, h2 {
+        font-size: 2rem; /* Smaller font size */
+        line-height: 30px; /* Adjust line height */
+    }
+
+    .btn {
+        width: 100px; /* Smaller button */
+        height: 30px; /* Smaller button */
+    }
+
+    .iconarea {
+        top: 20%; /* Adjust for smaller screens */
+        left: 5px; /* Adjust for smaller screens */
+    }
+}
